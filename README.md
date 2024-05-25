@@ -10,18 +10,14 @@ This app will allow a chemist to enter the reactants and products of a chemical 
 Balancing chemical equations is not a trivial task, yet it is a routine calculation carried out by synthetic chemists. I believe that students and professionals will appreciate and find this app useful.
 
 How to use:
-<ul>
-  <li>> The user enters a list of reactants and products, including mole coefficients, along with the target compound and its amount (in grams). </li>
-  <li> Upon clicking the submit button, the chemical names are translated into chemical formulas. Additionally, the molecular weight of each compound is extracted from the NIST webbook. Subsequently, the number of moles of the target compound and the corresponding masses are calculated. </li>
-<ul>
-
-</p>
+- The user enters a list of reactants and products, including mole coefficients, along with the target compound and its amount (in grams). 
+- Upon clicking the submit button, the chemical names are translated into chemical formulas. Additionally, the molecular weight of each compound is extracted from the NIST webbook. Subsequently, the number of moles of the target compound and the corresponding masses are calculated. </li>
 
 <hr>
 
-<i>Activities</i>
+<b>Appendix </b>
 
-I. Install Ruby on a windows machine
+A. Install Ruby on a windows machine
 
 1. I wasn't able to run my codespaces to edit my ruby file, so I decided to edit and run my ruby files on my desktop using visualstudo code.
 
@@ -45,9 +41,7 @@ I. Install Ruby on a windows machine
 
 <hr>
 
-<i>Appendix:</i>
-
-• sinatra-template
+B. sinatra-template
 
 Use this repository to create new Sinatra apps. 
 
