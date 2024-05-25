@@ -11,6 +11,8 @@ gem "sinatra-contrib"
 gem 'nokogiri'
 gem 'open-uri'
 
+gem 'matrix'
+
 gem 'net'
 gem 'uri'
 gem 'json'

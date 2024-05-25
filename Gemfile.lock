@@ -201,6 +201,7 @@ DEPENDENCIES
   http
   i18n
   json
+  matrix
   net
   nokogiri
   open-uri

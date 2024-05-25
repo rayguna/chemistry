@@ -1,18 +1,30 @@
-<h1>Your query:</h1>
+<h1>User Input:</h1>
+<hr>
+<!--<%=cookies%>-->
 
 <dl>
-<dt><b>Reactants:</b></dt> 
-  <dd><%=@reactants%></dd>
+  <dt><b>Reactants:</b></dt> 
+    <dd><%=@reactants%></dd>
 
-<dt><b>Products:</b><dt> 
-  <dd><%=@products%></dd>
+  <dt><b>Products:</b><dt> 
+    <dd><%=@products%></dd>
 
-<dt><b>Chemical Equation:</b></dt>
-  <dd><%=@reactants.strip.gsub(',',' + ')%>  → <%=@products.strip.gsub(',',' + ')%></dd> <!--first, remove spaces, then replace commas with plus signs-->
+  <dt><b>Chemical Equation:</b></dt>
+    <dd><%=@reactants.strip.gsub(',',' + ')%>  → <%=@products.strip.gsub(',',' + ')%></dd> <!--first, remove spaces, then replace commas with plus signs-->
+</dl>
+
+<hr>
+<h1>Output:</h1>
+  <dt><b>Balanced Chemical Equation:</b></dt> 
+    <dd><%=@chemical_equation%></dd>
+  
+  <dt><b>Molar Masses: </b><dt>
+    <dd><%=@mw%></dd>  
+
+  <dt><b>Moles of Product:</b></dt>
+    <dd><%=@moles_of_product%> mol</dd>
+    
 <dl>
-
-<b>Output:</b> <%=@parsed_response%>  
-
 
 <br>
 <br>
