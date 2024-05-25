@@ -1,13 +1,16 @@
-<h1>Chemistry App: Balancing Chemical Equations</h1>
+<h1>Chemistry App: Planning Chemical Reactions</h1>
 <hr>
 
+<i>Disclaimer: It is your responsibility to make sure that the chemical equation you insert is balanced.</i>
+<br>
+<br>
 <form action="/process_chemical_equation" method="post">
 <div>
-  <label for="reactants_list">List reactant names separated by commas</label>:   <input id="reactants_field" type="text" name="reactants"  value="propane, oxygen">
+  <label for="reactants_list">List reactant mole coefficients and names separated by commas</label>:   <input id="reactants_field" type="text" name="reactants"  value="propane, 5*oxygen">
 </div>
 
 <div>
-  <label for="products_list">List reactant names separated by commas</label>:   <input id="products_field" type="text" name="products"  value="carbon dioxide, water">
+  <label for="products_list">List product mole coefficients and names separated by commas</label>:   <input id="products_field" type="text" name="products"  value="3*carbon dioxide, 4*water">
 </div>
 
 <div>

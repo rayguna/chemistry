@@ -8,6 +8,11 @@ When chemists carry out chemical reactions, they start by writing out the chemic
 This app will allow a chemist to enter the reactants and products of a chemical reaction by their substance names, as well as the desired amount of the target compound in grams. Using a chemistry API like NIST Webbook (https://webbook.nist.gov/chemistry/), the Royal Society of Chemistry (https://developer.rsc.org/apis), or MKS Web (https://www.molecularknowledge.com/Help/WebInterface/WebInterface.html), the chemical names are translated into chemical formulas. The information is then parsed into the individual elements and their ratios. Next, the substance coefficients are calculated. Finally, the amounts of the reactants and the side products will be listed as the output. 
 
 Balancing chemical equations is not a trivial task, yet it is a routine calculation carried out by synthetic chemists. I believe that students and professionals will appreciate and find this app useful.
+
+How to use:
+• The user enters a list of reactants and products, including mole coefficients, along with the target compound and its amount (in grams).
+• Upon clicking the submit button, the chemical names are translated into chemical formulas. Additionally, the molecular weight of each compound is extracted from the NIST webbook. Subsequently, the number of moles of the target compound and the corresponding masses are calculated.
+
 </p>
 
 <hr>
