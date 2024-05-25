@@ -5,10 +5,10 @@
   <dd><%=@reactants%></dd>
 
 <dt><b>Products:</b><dt> 
-  <dd><%=@products.gsub(/\s+/, '').gsub(',',' + ')%></dd>
+  <dd><%=@products%></dd>
 
 <dt><b>Chemical Equation:</b></dt>
-  <dd><%=@reactants.gsub(/\s+/, '').gsub(',',' + ')%>  → <%=@products%></dd> <!--first, remove spaces, then replace commas with plus signs-->
+  <dd><%=@reactants.strip.gsub(',',' + ')%>  → <%=@products.strip.gsub(',',' + ')%></dd> <!--first, remove spaces, then replace commas with plus signs-->
 <dl>
 
 <b>Output:</b> <%=@parsed_response%>  
