@@ -5,7 +5,7 @@
 <p> 
 When chemists carry out chemical reactions, they start by writing out the chemical equations. Next, they balance the equations. Using the balanced equations, they can determine the amount of each substance required to synthesize the desired amount of the target compound.
 
-This app will allow a chemist to enter the reactants and products of a chemical reaction by their substance names, as well as the desired amount of the target compound in grams. Using a chemistry API like NIST Webbook (https://webbook.nist.gov/chemistry/), the Royal Society of Chemistry (https://developer.rsc.org/apis), or MKS Web (https://www.molecularknowledge.com/Help/WebInterface/WebInterface.html), the chemical names are translated into chemical formulas. The information is then parsed into the individual elements and their ratios. Next, the substance coefficients are calculated. Finally, the amounts of the reactants and the side products will be listed as the output.
+This app will allow a chemist to enter the reactants and products of a chemical reaction by their substance names, as well as the desired amount of the target compound in grams. Using a chemistry API like NIST Webbook (https://webbook.nist.gov/chemistry/), the Royal Society of Chemistry (https://developer.rsc.org/apis), or MKS Web (https://www.molecularknowledge.com/Help/WebInterface/WebInterface.html), the chemical names are translated into chemical formulas. The information is then parsed into the individual elements and their ratios. Next, the substance coefficients are calculated. Finally, the amounts of the reactants and the side products will be listed as the output. 
 
 Balancing chemical equations is not a trivial task, yet it is a routine calculation carried out by synthetic chemists. I believe that students and professionals will appreciate and find this app useful.
 </p>
@@ -58,3 +58,7 @@ configure do
   set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
 end
 ```
+
+• Additional information about chemistry apis can be found here: https://chem.libretexts.org/Courses/University_of_Arkansas_Little_Rock/ChemInformatics_(2015)%3A_Chem_4399_5399/Text/8_Interacting_with_Databases%3A_Desktop_and_Web_based_Applications
+
+• A ruby gem for converting chemical formula to mass: https://www.rubydoc.info/gems/chemistry_paradise/. The gem 'chemistry_paradise', however, cannot be found.

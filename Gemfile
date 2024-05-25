@@ -8,6 +8,13 @@ gem "http"
 gem "sinatra"
 gem "sinatra-contrib"
 
+gem 'nokogiri'
+gem 'open-uri'
+
+gem 'net'
+gem 'uri'
+gem 'json'
+
 # Use Puma as the app server
 gem "puma", "~> 5.0"
 
