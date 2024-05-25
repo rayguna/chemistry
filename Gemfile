@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.2.1"
+ruby "3.2.4"
+
+gem "http"
 
 gem "sinatra"
 gem "sinatra-contrib"

@@ -1,0 +1,19 @@
+<h1>Your query:</h1>
+
+<dl>
+<dt><b>Reactants:</b></dt> 
+  <dd><%=@reactants%></dd>
+
+<dt><b>Products:</b><dt> 
+  <dd><%=@products.gsub(/\s+/, '').gsub(',',' + ')%></dd>
+
+<dt><b>Chemical Equation:</b></dt>
+  <dd><%=@reactants.gsub(/\s+/, '').gsub(',',' + ')%>  → <%=@products%></dd> <!--first, remove spaces, then replace commas with plus signs-->
+<dl>
+
+<b>Output:</b> <%=@parsed_response%>  
+
+
+<br>
+<br>
+<a href="/">Go back</a>
