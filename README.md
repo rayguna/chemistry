@@ -13,6 +13,19 @@ How to use:
 - The user enters a list of reactants and products, including mole coefficients, along with the target compound and its amount (in grams). 
 - Upon clicking the submit button, the chemical names are translated into chemical formulas. Additionally, the molecular weight of each compound is extracted from the NIST webbook. Subsequently, the number of moles of the target compound and the corresponding masses are calculated. </li>
 
+<br>
+The figures below show the example input and output pages:
+<br>
+<br>
+<img src="example_input_page.png">
+<br>
+Figure 1. An example input page.
+<br>
+<br>
+<img src="example_output_page.png">
+<br>
+Figure 2. An example output page. 
+<br>
 <hr>
 
 <b>Appendix </b>
