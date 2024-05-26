@@ -11,10 +11,13 @@ Balancing chemical equations is not a trivial task, yet it is a routine calculat
 
 How to use:
 - The user enters a list of reactants and products, including mole coefficients, along with the target compound and its amount (in grams). 
-- Upon clicking the submit button, the chemical names are translated into chemical formulas. Additionally, the molecular weight of each compound is extracted from the NIST webbook. Subsequently, the number of moles of the target compound and the corresponding masses are calculated. </li>
+- Upon clicking the submit button, the chemical names are translated into chemical formulas. Additionally, the molecular weight of each compound is extracted from the NIST webbook. Subsequently, the number of moles of the target compound and the corresponding masses are calculated.
 
+<b>limitation:</b> The current version does not have the capability to balance the coefficients.
+<hr>
 The web-app has been deployed and can be accessed here: <a href="https://myappname-z7zh.onrender.com/"> https://myappname-z7zh.onrender.com/ </a>
-
+<hr>
+  
 <br>
 The figures below show the example input and output pages:
 <br>
@@ -34,7 +37,7 @@ Figure 2. An example output page.
 
 A. Install Ruby on a windows machine
 
-1. I wasn't able to run my codespaces to edit my ruby file, so I decided to edit and run my ruby files on my desktop using visualstudo code.
+1. I wasn't able to run my codespaces to edit my ruby file, so I decided to edit and run my ruby files on my desktop using Visual Studio Code.
 
 2. First, I had to install a ruby compiler following the instructions described in this video: https://www.youtube.com/watch?v=XC1ccTyhLPI.
 
