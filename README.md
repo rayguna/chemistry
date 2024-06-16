@@ -51,9 +51,9 @@ A. Install Ruby on a windows machine
 
 7. To run the ruby app from the command prompt, navigate into the folder directory and type ruby app.rb. I received an error message, "86:in `require': cannot load such file -- sinatra..."
 
-8. Type bundle install to make sure that all required gems are installed. I got an error message, "Your Ruby version is 3.2.4, but your Gemfile specified 3.2.1". Within gemfile, change 3.2.1 to 3.2.4 and re-run bundle install. Remember to include gem "hhtp" within Gemfile.
+8. Type bundle install to make sure that all required gems are installed. I got an error message, "Your Ruby version is 3.2.4, but your Gemfile specified 3.2.1". Within gemfile, change 3.2.1 to 3.2.4 and re-run bundle install. Remember to include gem "http" within Gemfile.
 
-9. Re-run ruby app.rb.
+9. To re-run ruby, type in the ruby terminal: `ruby app.rb`.
 
 10. To view the web-page, copy and paste http://127.0.0.1:4567 onto a browser.
 
